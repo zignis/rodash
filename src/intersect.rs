@@ -29,7 +29,7 @@ where
         .collect::<Vec<_>>()
 }
 
-/// A trait that implements the [Intersect::Intersect] method on arrays.
+/// A trait that implements the [Intersect::intersect] method on arrays.
 pub trait Intersect<A, I>
 where
     A: IntoIterator,
